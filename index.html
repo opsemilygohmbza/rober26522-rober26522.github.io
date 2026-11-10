@@ -1,109 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What We Did</title>
-    <style>
-        body{
-            background-image: url(https://i.pinimg.com/736x/99/a5/fc/99a5fcd40038a88b358be5f2cffa442a.jpg);
-            background-size: cover;
-            color: rgb(240, 255, 255);
-        }
-        a{
-            color: rgb(214, 40, 75);
-            font-weight: 1000;
-        }
-        .header{
-            background-color: rgba(100, 100, 100, 0.17);
-            text-align: center;
-            width: 1930;
-            font: italic;
-            box-shadow: 8px 8px 8px rgb(0, 0, 0);
-            font-size: larger;
-            text-shadow: 8px 8px 8px rgb(0, 0, 0);
-        }
-        #mainBox{
-            height: 870px;
-            padding-top: 30px;
-            justify-content: center;
-        }
-        #textBox{
-            background-color: rgba(100,100,100,0.2);
-            margin-left: 90px;
-            margin-right: 90px;
-            height: 600px;
-            width: auto;
-            border: 1mm dotted rgb(245, 245, 245);
-            text-align: left;
-            box-shadow: 8px 8px 8px rgb(255, 0, 0);
-            font-size: xx-large;
-            overflow: scroll;
-        }
-        #otherPages{
-            background-color: rgba(204, 12, 12,0.2);
-            margin-left: 90px;
-            margin-right: 90px;
-            margin-top: 10px;
-            width: auto;
-            height: auto;
-            justify-content: space-evenly;
-            border: 1mm dotted rgb(245, 245, 245);
-            box-shadow: 8px 8px 8px rgb(204, 196, 196);
-            font-size: large;
-        }
-        #cool{
-            float: right;
-            padding-right: 10px;
-        }
-        #me{
-            float: right;
-            margin-right: 3px;
-        }
-        @media screen and (max-width: 800px) {
-            #textBox{
-                background-color: rgba(100,100,100,0.2);
-                margin: 10px 5px auto 5px;
-                border: 1mm dotted rgb(245, 245, 245);
-                box-shadow: 8px 8px 8px rgb(255, 0, 0);
-                font-size: large;
-            }
-            #otherPages{
-                background-color: rgba(204, 12, 12, 0.3);
-                margin: 10px 5px auto 5px;
-                width: auto;
-                box-shadow: 8px 8px 8px rgb(204, 196, 196);
-            }
-            #me{
-                width: 80%;
-                height: 40%;
-            }
-            #textBox{
-                overflow: scroll;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="header">
-        <strong>My Portfolio For Programing Class</strong>
-        <a id="cool" href="RPG Maker.html">RPG Game</a>
-        <a id="cool" href="HTML Style.html">HTML Style</a>
-        <a id="cool"href="HTML Body.html">HTML Body</a>
-    </div>
-    <div id="mainBox">
-        <div id="textBox">
-            In this webpage I will tell you and show what I have learned. This is our final project for programing class! And although this was fun it was kinda tiring to do. 
-            But let me tell you about myself first, I grew up in PA if you would belive it or not. And I wasn't always into computers and what they did in the world. Yet like most
-            <img id="me" src="aa0lc-3m9j5.png" height="480px" width="600px">
-            kids I still wanted to know how the world works. So I started to "fall in love" with computers. And around that time my brother "Misha" or Mike started to build and 
-            do stuff with computers. Also around that time my dad had an air plane sim, so he would "let me play" for like 1min by just smashing random keys. And that is around 
-            the point that I started to get into the tech world. So basicly I am following in my brothers footsteps becuase he started to get into the world of tech when he was 
-            around the age of 13. And you might hav enoticed what colors the boxes have that look like a shadow, and those would be red and white. The reson for these colors is, 
-            that I like cars and more off the line of sports cars. And many poeple see those colors like racing colors and aggresive. If I am going to tell the truth I couldn't 
-            figure out a way to put an image on the webpage without messing it up so just take my word for it. And you the picture you see was me playing chess which I love to play.
-        </div>
-    </div>
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="user-scalable=no">
+        <link rel="icon" href="icon/icon.png" type="image/png">
+        <link rel="apple-touch-icon" href="icon/icon.png">
+        <link rel="stylesheet" type="text/css" href="fonts/gamefont.css">
+        <title>Amung us 2</title>
+    </head>
+    <body style="background-color: black">
+        <script type="text/javascript" src="js/libs/pixi.js"></script>
+        <script type="text/javascript" src="js/libs/pixi-tilemap.js"></script>
+        <script type="text/javascript" src="js/libs/pixi-picture.js"></script>
+        <script type="text/javascript" src="js/libs/fpsmeter.js"></script>
+        <script type="text/javascript" src="js/libs/lz-string.js"></script>
+        <script type="text/javascript" src="js/libs/iphone-inline-video.browser.js"></script>
+        <script type="text/javascript" src="js/rpg_core.js"></script>
+        <script type="text/javascript" src="js/rpg_managers.js"></script>
+        <script type="text/javascript" src="js/rpg_objects.js"></script>
+        <script type="text/javascript" src="js/rpg_scenes.js"></script>
+        <script type="text/javascript" src="js/rpg_sprites.js"></script>
+        <script type="text/javascript" src="js/rpg_windows.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
 </html>
